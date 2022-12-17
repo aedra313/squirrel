@@ -7,7 +7,7 @@
         height: 370px;
     }
     .wrapper {
-        height: 400px;
+        height: 700px;
         background-color: #202020;
         overflow-x: scroll;
 
@@ -17,7 +17,7 @@
     }
 
     .internalWrapper {
-        height: 365px;
+        height: 700px;
        /* width: 1350px; */
         margin-left: 0;
         display: inline-block;
