@@ -1,0 +1,137 @@
+@media (min-width: 360px) {
+
+    .chartContainer {
+        width: 100%;
+        padding-right: 20px;
+        padding-left:2px;
+        height: 370px;
+    }
+    .wrapper {
+        height: 700px;
+        background-color: #202020;
+        overflow-x: scroll;
+
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+
+    .internalWrapper {
+        height: 700px;
+       /* width: 1350px; */
+        margin-left: 0;
+        display: inline-block;
+        white-space: nowrap;
+    }
+    .conditions {
+        margin-top:-80px;
+       padding-left: 30px;
+        padding-right: 20px;
+
+    }
+    .conditions div{
+       margin-top: -1px;
+
+    }
+    .conditions div:last-child{
+        margin-top: 20px;
+    }
+
+    conditionRow{
+        margin-left: 0;
+        display: inline-block;
+        white-space: nowrap;
+    }
+
+    .conditionRow:first-child{
+        margin-top: 40px;
+    }
+
+    .base {
+        background: red;
+        display: inline-block;
+        height: 65px;
+        margin-left: 0.5px;
+        margin-top: 55px;
+        position: relative;
+        width: 44px;
+    }
+
+    .base:before {
+        border-bottom: 35px solid red;
+        border-left: 22px solid transparent;
+        border-right: 22px solid transparent;
+        content: "";
+        height: 0;
+        left: 0;
+        position: absolute;
+        top: -35px;
+        width: 0;
+    }
+    .civil {
+        background: yellow;
+        display: inline-block;
+        height: 75px;
+        margin-left: 0.5px;
+        margin-top: 55px;
+        position: relative;
+        width: 44px;
+    }
+
+    .civil:before {
+        border-bottom: 35px solid yellow;
+        border-left: 22px solid transparent;
+        border-right: 22px solid transparent;
+        content: "";
+        height: 0;
+        left: 0;
+        position: absolute;
+        top: -35px;
+        width: 0;
+    }
+
+    .military {
+        background: blue;
+        display: inline-block;
+        height: 75px;
+        margin-left: 0.5px;
+        margin-top: 55px;
+        position: relative;
+        width: 44px;
+    }
+
+    .military:before {
+        border-bottom: 35px solid blue;
+        border-left: 22px solid transparent;
+        border-right: 22px solid transparent;
+        content: "";
+        height: 0;
+        left: 0;
+        position: absolute;
+        top: -35px;
+        width: 0;
+    }
+
+    .conditionStyle {
+        display: block;
+        margin-left: 12px;
+        margin-top: 50px;
+        transform-origin: 0 0;
+        transform: rotate(270deg) !important;
+    }
+
+
+}
+
+@media (min-width: 900px) {
+    .wrapper {
+        height:700px;
+        overflow-x: scroll;
+        width: 900px
+    }
+
+    .internalWrapper {
+
+        height: 700px;
+    }
+}
